@@ -1,0 +1,47 @@
+# Archivos y carpetas generados por Visual Studio
+obj/
+bin/
+.vs/
+
+# Archivos de salida de compilación
+*.exe
+*.dll
+*.pdb
+
+# Archivos de salida de compilación de Visual Studio
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.vssscc
+.builds
+*.pidb
+*.log
+
+# Carpeta de resultados de prueba
+TestResults/
+
+# Carpeta de NuGet
+packages/
+
+# Archivos de análisis de código
+*.sln.docstates
+
+# Archivos de Visual Studio Code
+.vscode/
+
+# Carpeta de archivos de implementación de IIS
+PublishProfiles/

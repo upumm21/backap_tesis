@@ -27,7 +27,7 @@ namespace SistemaVenta.Utility
             #region Usuario
             CreateMap<Usuario, UsuarioDTO>()
             .ForMember(destino =>
-                destino.RolDescripción,
+                destino.RolDescripcion,
                 opt => opt.MapFrom(origen => origen.IdRolNavigation.Nombre)
             )
             .ForMember(destino =>
